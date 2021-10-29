@@ -5,10 +5,24 @@
     height: 300px;
     text-align: center;
     border: 3px solid black;
-
+    position: relative;
+    left:540px;
+    top:250px;
+    z-index: 10;
 }
-#seconddiv
+#firstdiv:hover
 {
-    position:relative;
-    top:200px;
+    visibility: hidden;
+    transition: 1s;
+}
+
+#brenciu
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top:-50px;
+    left:550px;
+    visibility: visible;
+    z-index: 5;
 }
